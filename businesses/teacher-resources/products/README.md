@@ -1,0 +1,1 @@
+Run `pip install reportlab && python3 build_pdfs.py` to regenerate. Files 00-04 are the finished PDFs. To add a worksheet, write a `ws_*` function and add it to the `WS` list; keys are generated from the same data so they cannot drift.
