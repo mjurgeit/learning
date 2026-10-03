@@ -1,0 +1,5 @@
+Period,Start,End,Due Date,Notes
+P1 Jan-Mar 2026,2026-01-01,2026-03-31,2026-04-15,IRS estimated-tax period 1
+P2 Apr-May 2026,2026-04-01,2026-05-31,2026-06-15,IRS estimated-tax period 2
+P3 Jun-Aug 2026,2026-06-01,2026-08-31,2026-09-15,IRS estimated-tax period 3
+P4 Sep-Dec 2026,2026-09-01,2026-12-31,2027-01-18,IRS estimated-tax period 4 (due date moved for weekend)

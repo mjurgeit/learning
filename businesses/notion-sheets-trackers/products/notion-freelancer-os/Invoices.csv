@@ -1,0 +1,4 @@
+Invoice #,Client,Project,Issue Date,Terms (days),Amount,Amount Paid,Notes
+INV-001 (sample),Acme Co (sample),Brand identity pack (sample),2026-09-05,30,750,750,Deposit 50%
+INV-002 (sample),Birch Studio (sample),Website build (sample),2026-08-12,14,2000,0,Overdue example
+INV-003 (sample),Birch Studio (sample),Website build (sample),2026-09-28,30,2000,0,Final payment

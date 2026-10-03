@@ -169,8 +169,14 @@ def build(path):
     c.setFont("Serif-B", 30); c.drawCentredString(W/2, H/2+0.6*IN, "Well done, Master Gardener!")
     c.setFont("Serif", 16); c.drawCentredString(W/2, H/2, "You found every last word.")
     c.showPage(); pg += 1
+    l, r = margins(pg, INSIDE, OUTSIDE)
+    c.setFont("Serif-B", 24); c.drawString(l, H-TOP-22, "Garden Notes"); c.setLineWidth(1.2); c.line(l, H-TOP-32, W-r, H-TOP-32)
+    c.setStrokeGray(0.7); c.setLineWidth(0.5)
+    yy = H-TOP-0.9*IN
+    while yy > BOT+0.5*IN: c.line(l, yy, W-r, yy); yy -= 0.38*IN
+    footer(c, pg); c.showPage(); pg += 1
     c.save(); return pg-1
 
 if __name__ == "__main__":
-    out = os.path.join(os.path.dirname(__file__), "..", "gardeners-large-print-word-search_interior_8.5x11_80pp.pdf")
+    out = os.path.join(os.path.dirname(__file__), "..", "gardeners-large-print-word-search_interior_8.5x11_82pp.pdf")
     print("pages", build(out))

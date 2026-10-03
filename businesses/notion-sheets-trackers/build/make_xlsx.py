@@ -245,7 +245,7 @@ def build_finance(demo):
         inv = [("INV-001","Acme Co",d(2026,1,5),30,2500),("INV-002","Acme Co",d(2026,2,1),30,1800),
                ("INV-003","Birch Studio",d(2026,3,20),30,1200),("INV-004","Cobalt Ltd",d(2026,5,1),15,3000),
                ("INV-005","Acme Co",d(2026,6,15),30,1500),("INV-006","Birch Studio",d(2026,8,28),14,1500),
-               ("INV-007","Cobalt Ltd",d(2099,1,1),30,800)]
+               ("INV-007","Cobalt Ltd",d(2026,9,28),30,800)]
         for i, row in enumerate(inv, 5):
             for j, v in zip((1,2,3,4,6), row): V.cell(row=i, column=j, value=v)
         for i, n in enumerate(["Acme Co","Birch Studio","Cobalt Ltd"], 5): C.cell(row=i, column=1, value=n)
