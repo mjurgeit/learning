@@ -11,7 +11,10 @@ Goal: build and run multiple small digital-product businesses (Etsy, Amazon KDP,
 ## Layout
 - `research/01-market-report.md` – first market report (start here)
 - `research/opportunities.csv` – scored list of candidate businesses
-- `businesses/` – one subfolder per launched business
+- `research/02-playbook.md` – cross-business playbook (SEO, pricing, traffic, policies)
+- `research/03-ranking-and-launch-order.md` – ranked businesses and launch order
+- `businesses/` – one folder per business (plan, skills, listings, products)
+- `toolkit/` – tested Python tools: PDF design system, listing generator, mockups, revenue calculator
 
 ## Ground rules
 - Make **original** products. Never copy a competitor's listing, art, or text.
